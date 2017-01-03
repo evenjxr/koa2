@@ -4,7 +4,8 @@
     "description": "Hello Koa 2 example with async",
     "main": "start.js",
     "scripts": {
-        "start": "node start.js"
+        "start": "NODE_ENV=develop node start.js",
+        "dev": "NODE_ENV=production supervisor start.js"
     },
     "keywords": [
         "koa",

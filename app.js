@@ -8,7 +8,6 @@ const templating = require('./templating');
 
 const app = new Koa();
 
-process.env.NODE_ENV = 'development';
 const isProduction = process.env.NODE_ENV === 'production';
 
 // log request URL:
